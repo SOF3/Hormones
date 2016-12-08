@@ -1,5 +1,5 @@
 ---
-branches: master
+branches: [master]
 projects:
   Hormones:
     path: /Hormones/
