@@ -6,13 +6,15 @@ projects:
     release:
       categories: [general, networks, developer tools]
       description: "Hormones is for network balancing.\n\nUse it to group your server networks."
-      license: file-raw: /LICENSE
+      license:
+        type: custom
+        file-raw: /LICENSE
       icon: "url: https://avatars0.githubusercontent.com/u/7603090?v=3&s=200"
       spoon:
         pmmp: 2.0.0
-        clearsky: 2.0.0
       require: [mysql]
   HormonesUtils:
     path: /HormonesUtils/
     addonFor: Hormones
+    license: lgpl-3.0
 ...
